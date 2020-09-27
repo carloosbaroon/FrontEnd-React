@@ -20,10 +20,10 @@ import {Card, CardBody, CardImg, CardText, CardTitle} from "reactstrap";
         }
     }
 
-    function RenderComments({dishComment}){
+    function RenderComments({dishComments}){
         console.log('COMMENTS!!!!!!');
-        if(dishComment != null) {
-            const comments = dishComment.map((comment) => {
+        if(dishComments != null) {
+            const comments = dishComments.map((comment) => {
                 return (
                     <div key={comment.id}>
                         <ul className="list-unstyled">
