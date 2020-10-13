@@ -8,7 +8,7 @@ export const addComment = (comment) => ({
 });
 
 export const postComment = (dishId, rating, author, comment) => (dispatch) => {
-
+    console.log('Author:' + author);
     const newComment = {
         dishId: dishId,
         rating: rating,

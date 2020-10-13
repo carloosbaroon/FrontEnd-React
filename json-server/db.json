@@ -208,6 +208,26 @@
       "comment": "This is a test",
       "date": "2020-10-13T13:54:52.099Z",
       "id": 20
+    },
+    {
+      "dishId": 0,
+      "rating": "4",
+      "comment": "Test",
+      "date": "2020-10-13T14:19:19.544Z",
+      "id": 21
+    },
+    {
+      "dishId": 0,
+      "comment": "retro",
+      "date": "2020-10-13T14:21:30.894Z",
+      "id": 22
+    },
+    {
+      "dishId": 0,
+      "author": "test",
+      "comment": "star",
+      "date": "2020-10-13T14:22:55.926Z",
+      "id": 23
     }
   ],
   "promotions": [
